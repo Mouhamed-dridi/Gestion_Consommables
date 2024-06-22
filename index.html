@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printer Toner Stock Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Printer Toner Stock Management</h1>
+        
+        <div class="form-container">
+            <h2>Add Toner Stock</h2>
+            <form id="add-toner-form">
+                <label for="reference">Reference:</label>
+                <input type="text" id="reference" name="reference" required>
+
+                <label for="quantite">Quantity:</label>
+                <input type="number" id="quantite" name="quantite" required>
+
+                <label for="imprimante">Printer Model:</label>
+                <input type="text" id="imprimante" name="imprimante" required>
+
+                <button type="submit">Add Toner</button>
+            </form>
+        </div>
+    </div>
+    <script src="add.js"></script>
+</body>
+</html>
